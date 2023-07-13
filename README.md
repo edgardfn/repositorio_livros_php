@@ -6,7 +6,8 @@
 
 ## 💻 Sobre o projeto
 
-Book Repository 📚 - é um sistema de cadastro e listagem de livros feito com Php, com cabeçalho e rodapé usando includes.
+Book Repository 📚 - é um sistema de cadastro e listagem de livros feito com Php. 
+- com cabeçalho e rodapé usando includes.
 - Listagem com paginação dos dados cadastrados.
 - Página de cadastro com formulário com validação de dados em branco e retorno de alerta no formulário.
 - Validação de inserção de livro já cadastrados, também com retorno de alerta.
