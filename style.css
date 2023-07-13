@@ -1,0 +1,334 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        background-color: black;
+        height: 48px;
+
+        .icon-container {
+            padding: 0 32px;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .icon-container .books-image-icon {
+            height: 32px;
+        }
+       
+        .content-navbar {
+            padding: 0 32px;
+            display: flex;
+            gap: 32px;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    } 
+
+
+    .link-menu {
+        text-decoration: none;
+        color: white;
+    }
+
+    .link-menu:hover {
+        opacity: 0.5;
+    }
+
+    .container-footer {
+        background-color: black;
+        height: 48px;
+
+        color: white;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-main {
+        height: calc(100vh - 48px - 48px);
+        max-height: calc(100vh - 48px - 48px);
+        width: 100vw;
+        max-width: 100vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* PÁGINA DE CADASTRO: */
+        .container-register {
+            width: max-content;
+            height: max-content;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 38px;
+
+            padding: 32px;
+            border-radius: 8px;
+
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        .form-register {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input-register {
+            border-radius: 8px;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            height: 40px;
+            padding-left: 16px;
+            background-color: transparent;
+
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+        }
+
+        .input-register:focus {
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            outline: 0;
+            background-color: #f7faf7;
+        }
+
+        .container-buttons-register {
+            display: flex;
+            gap: 28px;
+        }
+
+        .button-register {
+            width: 100%;
+            height: 34px;
+            border: none;  
+            text-transform: uppercase;
+        
+            display: flex;
+            align-items: center;
+            font-family: inherit;
+            font-weight: 500;
+            font-size: 16px;
+            padding: 0 1.4em 0 1.1em;
+            color: white;
+            background: #ad5389;
+            background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+            border: none;
+            letter-spacing: 0.05em;
+            border-radius: 20em;
+            cursor: pointer;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-register:hover {
+            box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+            opacity: 0.9;
+        }
+
+        .button-register:active {
+            box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+        }
+
+        .alert-success {
+            color: #3c763d;
+            background-color: #dff0d8;
+            border-color: #d6e9c6;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+        .alert-warning {
+            color: #8a6d3b;
+            background-color: #fcf8e3;
+            border-color: #faebcc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+        .alert-danger {
+            color: #a94442;
+            background-color: #f2dede;
+            border-color: #ebccd1;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+    /* INDEX: */
+        .container-index-main {
+            height: calc(100vh - 48px - 48px);
+            max-height: calc(100vh - 48px - 48px);
+            width: 100vw;
+            max-width: 100vw;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            padding: 64px 0;
+        }
+
+        .container-books-list {
+            width: 80%;
+            
+        }
+
+        .container-header-books-list {
+            display: grid;
+            grid-template-columns: 05% 21% 21% 21% 13% 19%;  
+
+            background-color: black;
+            color: white;
+            border-radius: 4px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container-header-books-list span {
+            padding: 16px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .content-books-list {
+            display: grid;
+            grid-template-columns: 05% 21% 21% 21% 13% 19%;  
+        }
+
+        .content-books-list:nth-child(2n+1) {
+            background-color: white;
+        }
+
+        .content-books-list:nth-child(2n) {
+            background-color: #f2f2f2;
+        }
+
+        .content-books-list div{
+            padding: 16px;
+            font-family: 'Roboto', sans-serif;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            direction: ltr;
+        }
+
+        .content-books-list:hover {
+            background-color: #ddd;
+        }
+
+        .container-header-list-books {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+
+            border-bottom: 1px solid #cfd1d4;
+
+            padding: 14px 0;
+
+            margin-bottom: 32px;
+        }
+        
+
+        #table-list-books {
+            font-family: 'Roboto', sans-serif;
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        #table-list-books td, #table-list-books th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #table-list-books tr:nth-child(even){background-color: #f2f2f2;}
+
+        #table-list-books tr:hover {background-color: #ddd;}
+
+        #table-list-books th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: black;
+            color: white;
+        }
+
+        .button-index-register {
+            width: max-content;
+            height: 34px;
+            border: none;  
+            text-transform: uppercase;
+        
+            display: flex;
+            align-items: center;
+            font-family: inherit;
+            font-weight: 500;
+            font-size: 16px;
+            padding: 0 1.4em 0 1.1em;
+            color: white;
+            background-color: #ad5389;
+            background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+            border: none;
+            letter-spacing: 0.05em;
+            border-radius: 20em;
+            cursor: pointer;
+            touch-action: manipulation;
+            box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+            opacity: 1;
+        }
+
+        .button-index-register:hover {
+            box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+            opacity: 0.9;
+        }
+
+        .button-index-register:active {
+            box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+            opacity: 0.9;
+        }
+
+        .container-pagination {
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .container-pagination span {
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+        }
+
+        .container-pagination a {
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            text-decoration: none;
+            color: rgba(20,167,62,1);
+        }
+
+        .container-pagination img {
+            width: 32px;
+        }
+
+}
