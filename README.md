@@ -7,10 +7,10 @@
 ## 💻 Sobre o projeto
 
 Book Repository 📚 - é um sistema de cadastro e listagem de livros feito com Php, com cabeçalho e rodapé usando includes.
-Listagem com paginação dos dados cadastrados.
-Página de cadastro com formulário com validação de dados em branco e retorno de alerta no formulário.
-Validação de inserção de livro já cadastrados, também com retorno de alerta.
-Validação em Javascript de ano de lançamento do livro somente entre 2000 e 2023, com retorno de alerta quando diferente desse range.
+- Listagem com paginação dos dados cadastrados.
+- Página de cadastro com formulário com validação de dados em branco e retorno de alerta no formulário.
+- Validação de inserção de livro já cadastrados, também com retorno de alerta.
+- Validação em Javascript de ano de lançamento do livro somente entre 2000 e 2023, com retorno de alerta quando diferente desse range.
 
 
   <img  title="HomeImage" src="./src/assets/print01.png" width="90%">
