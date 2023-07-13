@@ -13,15 +13,17 @@ Book Repository 📚 - é um sistema de cadastro e listagem de livros feito com 
 - Validação em Javascript de ano de lançamento do livro somente entre 2000 e 2023, com retorno de alerta quando diferente desse range.
 
 
-  <img  title="HomeImage" src="./src/assets/print01.png" width="90%">
+  <img  title="HomeImage" src="./src/assets/Tela_books_list.png" width="90%">
 
-  <img  title="ListCoffeePrint" src="./src/assets/print02.png" width="90%">
+  <img  title="BooksRegister" src="./src/assets/Tela_register_books.png" width="90%">
   
-  <img  title="CartPrint" src="./src/assets/print03.png" width="90%">
+  <img  title="Alert01" src="./src/assets/Tela_alert01.png" width="90%">
   
-  <img  title="CartPrint02" src="./src/assets/print04.png" width="90%">
+  <img  title="Alert02" src="./src/assets/Tela_alert02.png" width="90%">
   
-  <img  title="SucessPrint" src="./src/assets/print05.png" width="90%">
+  <img  title="Alert03" src="./src/assets/Tela_alert03.png" width="90%">
+  
+  <img  title="Alert04" src="./src/assets/Tela_alert04.png" width="90%">
 
 ## 🚀 Como executar o projeto
 
